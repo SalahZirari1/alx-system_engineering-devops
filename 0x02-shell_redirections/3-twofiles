@@ -1,4 +1,2 @@
-#!bin/bash
-twofiles.txt > /etc/passwd 
-twofiles.txt >> /etc/hosts
-cat twofiles.txt
+#!/bin/bash
+cat /etc/passwd | cat /etc/hosts
